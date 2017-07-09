@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey</title>
+</head>
+<body>
+  <form action="login" method="post">
+  <div>
+    <label>Full name:</label>
+    <input type="text" name="FullName">
+  </div>
+  <div>
+    <label>Email:</label>
+    <input type="email" name="email">
+  </div>
+  <div>
+    <label>Phone:</label>
+    <input type="number" name="number">
+  </div>
+  <br>
+  Please select preferred contact method:
+  <br>
+  <select name="select"> <!--Supplement an id here instead of using 'name'-->
+  <option value="value1">Call</option>
+  <option value="value2" selected>Text</option>
+  <option value="value3">Email</option>
+  </select>
+  <br>
+  <br>
+  <textArea id="comment">Type comment here</textArea>
+  <br>
+  <button type="submit" formaction="success.html">Button
+  </button>
+  </form>
+</body>
+</html>

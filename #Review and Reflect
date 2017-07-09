@@ -1,0 +1,47 @@
+#Review and Reflect
+
+##Command Line:
+1. What is a shell? What is "bash?"
+A shell is a set of add-ons and plug-ins. "Bash" is the standard shell for common users.
+2. In your own words, write what each of the following commands does:
+
+pwd - present working directory
+ls - list directory contents
+mv - move
+cd - home directory
+touch - create new file
+mkdir - create new directory
+rm - remove a file
+help - look up types of commands on Terminal
+find - locate a file
+grep - find a string in a file
+
+
+##Git:
+1. What is version control and why do developers use it?
+Version control is a system that records changes to a file or set of files over time, and it is useful because it allows you to recall specific versions later.
+2. What is a commit? What are the best practices for commit messages?
+A commit records changes to the repository. A good commit message contains present-tense verb and detailed information of what has been done previously.
+3. What is a branch?
+A branch is the duplication of an object under revision control so that modifications can happen in parallel along both branches.
+4. What are the 3 stages of a git change and how do you move a file from one stage to the other?
+Untracked: the file exists, but is not part of git's version control
+Staged: the file has been added to git's version control but changes have not been committed
+Committed: the change has been committed
+
+
+##GitHub:
+1. Write an explanation of and compare Git and GitHub to one another.
+Git is a version control system and GitHub is a web-based Git repository hosting service.
+2. In your own words, write instructions to create, clone and update a repository.
+git init
+git add
+git clone
+3. In your own words, write instructions to fork, clone and update a repository.
+Choose the fork option
+git clone
+git commit -m "message"
+4. What is a pull request and how do you create and merge one?
+A pull request allows other contributing members to check and provide feedback on one's codes. Choose the Create Pull Request option and wait for the pull request to be merged, then select the Merge Pull Request option.
+5. Why are pull requests preferred when working with teams?
+Pull requests are preferred when working with teams because it maintains transparency and reduces faults among teammates.
