@@ -1,0 +1,20 @@
+.Hat {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  z-index: 3
+}
+
+.Glasses {
+  position: absolute;
+  left: 210px;
+  top: 290px;
+  z-index: 2
+}
+
+.Octopus {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  z-index: 1;
+}
