@@ -1,0 +1,12 @@
+Write the algorithm for using an elevator. 
+
+- From the lobby, step into the elevator when door opens
+- Once elevator door closes:
+    - Go up to the 12th floor (n=n+1)
+    - Press the "12" button once
+- If elevator stops at other floors
+    - Remain inside elevator
+    - Make room when more passengers enter
+- Until elevator stops on 12th floor
+    - Say "Excuse me" if there are many passengers
+    - Exit elevator
