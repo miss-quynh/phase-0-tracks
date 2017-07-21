@@ -1,0 +1,31 @@
+Write the algorithm for using an elevator. 
+
+- From the lobby, step into the elevator when door opens
+- Once elevator door closes:
+    - Go up to the 12th floor (n=n+1)
+    - Press the "12" button once
+- If elevator stops at other floors
+    - Remain inside elevator
+    - Make room when more passengers enter
+- Until elevator stops on 12th floor
+    - Say "Excuse me" if there are many passengers
+    - Exit elevator
+
+
+Find a Real-Life Algorithm.
+
+- Once alarm goes off
+    + Turn off alarm clock
+    + Sit up in 90 degree angle
+    + Get out of bed
+- After getting out of bed:
+    + Grab blanket
+    + Fold blanket in half along long-edge
+    + Then bold again in half along long-edge
+    + Place folded blanket at top center of bed
+    + Place pillow on top of folded blanket
+- If could not get out of bed
+    + Snooze alarm clock
+    + Close eyes for a little longer
+    + Continue snoozing alarm clock until get out of bed
+    + Perform steps after getting out of bed
