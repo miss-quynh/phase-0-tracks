@@ -1,8 +1,12 @@
 def encrypt(password)
   index = 0
     while index < password.length
+      if password[index] == "z"
+         password[index] = "a"
+      else
       password[index] = password[index].next!
-      index += 1
+      end
+    index += 1
     end
     p password
   end
@@ -14,8 +18,12 @@ def decrypt(encrypted_password)
   alphabet = "abcdefghijklmnopqrstuvwxyz"
   letter_place = 0
     while letter_place < encrypted_password.length
+      if encrypted_password[letter_place] == "a"
+         encrypted_password[letter_place] = "z"
+      else
         encrypted_password[letter_place] = alphabet[alphabet.index(encrypted_password[letter_place]) - 1]
-        letter_place += 1
+      end
+      letter_place += 1
     end
     p encrypted_password
   end
