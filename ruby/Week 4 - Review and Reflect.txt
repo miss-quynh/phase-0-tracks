@@ -1,0 +1,52 @@
+Week 4: Review and Reflect
+
+Variables
+1. What is a variable? Why might a programmer use a variable?
+    A variable is a value that can change. A programmer uses a variable because he can set its value and retrieve it at any time.
+2. If the value of first_name is "Abraham" and last_name is "Lincoln", explain the order in which Ruby will run the line full_name = first_name + last_name, and what the final result will be.
+    Ruby will evaluate and simplify the assigned variables on the right-hand side first, then assign the result to the left-side variable. As such, when we print full_name, the output will be "AbrahamLincoln"
+
+
+Data Types
+3. For each of the following data types, write a short definition and give at least one example of when you might use the data type in a program. (Don't use an example we've already provided.)
+
+    string: text (e.g. "Quynh")
+    integer: number (e.g. 23)
+    float: decimal values (e.g. 119.78 pounds)
+    nil: nothing (e.g. Is Quynh a smoker?)
+    boolean: true/false (e.g. Is Quynh Vietnamese?)
+
+
+Algorithms
+4. What is an algorithm?
+    An algorithm is a set of steps to solve a problem or accomplish a task.
+5. What are two common categories of algorithm in computer science? 
+    Two common categories of algorithm in computer science are searching and sorting.
+
+
+Methods
+6. What is a method? Why might a programmer choose to use a method?
+    A method is a procedure that is executed when an object receives a message. A programmer might choose to use a method because he can implement the behavior to the receiving object.
+7. Define the following terms as they relate to a method. 
+
+    return value: a declared value
+    side effect: a function that modifies some state outside its scope
+    parameter: the variable inside the implementation of the subroutine
+    argument: the actual input passed to a function, procedure, or routine
+    implicit return: the value returned by the last statement
+
+8. What are global scope and method scope? How do those scopes impact the availability of data at different points in a program?
+    Global scope contains variables that are defined outside a function, whereas method scope contains variables defined within a function. Those scopes impact the availability of data at different points in a program by allowing access to a variable within certain parts of the code.
+
+
+Control Flow
+9. What is control flow? Why might a programmer choose to use flow control?
+    A control flow allows programs to make decisions. Flow control is important because it is possible for a sending computer to transmit information at a faster rate than the destination computer can receive and process them.
+10. Define the following terms as they relate to flow control.
+
+     loop: runs the same code over and over until a condition is met
+     if: takes a boolean and run some logic based on whether that boolean is true
+     else: gives an alternative to run when the IF condition is not met
+     elsif: handles more than two possibilities
+     while: stops when its condition is false
+     until: stops when its condition is true
