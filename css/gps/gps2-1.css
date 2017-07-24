@@ -1,0 +1,26 @@
+header {background-color: pink;
+        border: solid;
+        padding: 10px;
+
+}
+
+.column-1 {background-color: #FFE4C4;
+           border: solid;
+           padding: 5px;
+           width: 450px;
+           display: inline-block;
+           vertical-align: top;
+}
+
+.column-2 {background-color: #F0E68C;
+           border: solid;
+           padding: 5px;
+           width: 450px;
+           display: inline-block;
+           vertical-align: top;
+}
+
+footer {background-color: #D3D3D3;
+        border: solid;
+        margin-right: 60%;
+}
