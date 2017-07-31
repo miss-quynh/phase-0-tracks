@@ -22,7 +22,6 @@ search_integers(array, 15)
 
 #RELEASE 1
 
-p search_integers(array, 5)
 
 def fib(integer)
   array = [2, 4, 6, 8, 10]
