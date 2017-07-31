@@ -1,0 +1,33 @@
+Week 5 - Review and Reflect
+
+
+Data Structures
+1. Why are data structures useful in programming?
+    Data structures are useful in programming because they offer ways to organize smaller pieces of data.
+
+Arrays
+2. Define "array" and describe the characteristics of an array.
+    An array is a data structure which can store a fixed-size collection of elements of the same data type. We use the shovel operator to shovel a value into an array. An array has square brackets [ ] on either side of the items.
+
+3. Give two original examples of data sets that an array might be well-suited for.
+    A list of dishes on a food menu or drinks of a bar menu.
+
+Hashes
+4. Define "hash" and describe the characteristics of a hash.
+    A hash is a transformation of a string of characters into a usually shorter fixed-length value or key that represents the original string. Hashing is used to index and retrieve items in a database because it is faster to find the item using the shorter hashed key than to find it using the original value. A has uses curly brackets { } on either side of the items.
+5. Give two original examples of data sets that a hash might be well-suited for.
+    Examples of data sets that a has might be well-suited for include the difficulty level assigned to each lesson plan or a person's mood assigned to each color.
+
+Iteration
+6. Why is iteration useful?
+    Iteration is useful in executing a block of code on each item of an array or hash.
+
+7. Give an example of a real-life task that would require iteration if you wrote an algorithm for it.
+    An example of a real-life task that would require iteration would be my daily morning routine after getting out of bed to get ready for the day.
+
+Blocks
+8. What is a block?
+    A block is some portable code that makes up its own little mini program.
+
+9. What is a block parameter, and where does its value come from?
+    A block parameter is a method called to pass a block instead of an argument to get different results. Its value depends on the method you are calling.
