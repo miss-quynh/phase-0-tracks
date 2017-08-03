@@ -64,8 +64,7 @@ x = 0
 sport_instances = []
 
 until x == 50
-  instance = Sport.new
-  sport_instances << instance
+  sport_instances << Sport.new
   x += 1
 end
 
@@ -75,6 +74,3 @@ sport_instances.each do |instance|
   instance.chant(1)
   instance.high_five
 end
-
-
-
