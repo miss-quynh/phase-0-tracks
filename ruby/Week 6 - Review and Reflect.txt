@@ -1,0 +1,25 @@
+Week 6 - Review and Reflect
+
+
+1. What are classes? Be sure to define the following terms in your explanation and describe the relationships between them:
+
+    class: a template or model for how objects of the same type should behave
+    state: also known as attributes, the characteristics, or data, of each instance
+    behavior: member functions or methods
+    instance variable: variable you call on an instance
+    instance method: method you call on an instance
+
+2. What are attributes? 
+    Attributes are just a special sort of variable that you can use inside of a class declaration.
+
+3. Give an example of a real world object, and describe how you might assign its attributes if you were to design a class to represent that object.
+    The attributes of a vehicle might be described as its make, model, size, color, or year.
+
+4. What is the purpose of the initialize method? When does it run?
+    The initialize method assigns default values into all of the instance variables, and it is usually defined at the very beginning, right after declaring the class.
+    
+5. What are modules?
+    Modules provide compartmentalization for methods.
+
+6. What are the different ways you can use a module?
+    You can use a module as a standalone module or as a mixins module.
