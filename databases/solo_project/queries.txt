@@ -53,3 +53,6 @@ Run a SQL query for each of the following:
 7) Right Join
     select cuisine_id from foods right join cuisines on foods.cuisine_id=cuisines.name;
         Error: RIGHT and FULL OUTER JOINs are not currently supported
+
+
+Source: https://www.w3schools.com/sql/sql_quickref.asp
