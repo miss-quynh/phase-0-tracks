@@ -61,3 +61,20 @@ get '/students/:id' do
   student = db.execute("SELECT * FROM students WHERE id=?", [params[:id]])[0]
   student.to_s
 end
+
+
+
+########################
+
+
+
+# Release 1: Research on Your Own
+
+# Is Sinatra the only web app library in Ruby? What are some others?
+  # Another web app library in Ruby is the Padrino, which is a Ruby web framework that is built upon the Sinatra web library.
+
+# Are SQLite and the sqlite3 gem your only options for using a database with Sinatra? What are some others?
+  # Other options for using a database with Sinatra include DataMapper and ActiveRecord.
+
+# What is meant by the term web stack?
+  # A Web stack is the utilization of various software for Web development, which typically contains an operating system (OS), a programming language, database software, and a Web server.
