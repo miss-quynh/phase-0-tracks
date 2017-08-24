@@ -23,6 +23,14 @@ get '/contact' do
   address = "2230 Durant Avenue, Berkeley, CA 94704"
 end
 
+get '/great_job' do
+  if params[:name]
+    "Good job, #{params[:name]}!"
+  else
+    "Good job!"
+  end
+end
+
 get '/:person_1/loves/:person_2' do
   "#{params[:person_1]} loves #{params[:person_2]}"
 end
