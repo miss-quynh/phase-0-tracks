@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Food Food</title>
+</head>
+<body>
+<p>No one likes a HANGRY person, so always make sure you are well-fed!</p>
+<p>Please record what you ate today:</p>
+<form action="/food" method="POST">
+    <input type="text" name="day_of_the_week" placeholder="Day of the Week">
+    <input type="text" name="meal" placeholder="Breakfast/Lunch/Dinner">
+    <input type="text" name="type_of_food" placeholder="Food">
+    <button type="submit">Save</button>
+  </form>
+
+<ul>
+    <% @food.each do |food| %>
+      <li><%= food['day_of_the_week'] %>, <%= food['meal'] %>, <%= food['type_of_food'] %></li>
+    <% end %>
+</ul>
+</body>
+</html>
