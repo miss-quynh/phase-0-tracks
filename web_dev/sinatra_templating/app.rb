@@ -25,3 +25,10 @@ post '/students' do
 end
 
 # add static resources
+
+
+
+# suggest food to eat based on preference
+get '/suggest/food' do
+  erb :food
+end
